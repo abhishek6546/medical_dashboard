@@ -260,8 +260,8 @@ const seedData = async () => {
                 status: 'Delivered',
                 paymentMethod: 'Online',
                 paymentStatus: 'Paid',
-                bookingDate: new Date('2025-01-05'),
-                deliveryDate: new Date('2025-01-08')
+                bookingDate: new Date('2026-01-05'),
+                deliveryDate: new Date('2026-01-08')
             },
             {
                 orderId: 'ORD000002',
@@ -280,7 +280,7 @@ const seedData = async () => {
                 status: 'Pending',
                 paymentMethod: 'COD',
                 paymentStatus: 'Pending',
-                bookingDate: new Date('2025-01-10')
+                bookingDate: new Date('2026-01-10')
             },
             {
                 orderId: 'ORD000003',
@@ -298,7 +298,7 @@ const seedData = async () => {
                 status: 'Processing',
                 paymentMethod: 'Card',
                 paymentStatus: 'Paid',
-                bookingDate: new Date('2025-01-11')
+                bookingDate: new Date('2026-01-11')
             },
             {
                 orderId: 'ORD000004',
@@ -318,7 +318,7 @@ const seedData = async () => {
                 status: 'Shipped',
                 paymentMethod: 'Online',
                 paymentStatus: 'Paid',
-                bookingDate: new Date('2025-01-09')
+                bookingDate: new Date('2026-01-09')
             },
             {
                 orderId: 'ORD000005',
@@ -336,7 +336,7 @@ const seedData = async () => {
                 status: 'Cancelled',
                 paymentMethod: 'COD',
                 paymentStatus: 'Pending',
-                bookingDate: new Date('2025-01-02')
+                bookingDate: new Date('2026-01-02')
             }
         ];
         const orders = await Order.insertMany(ordersData);
