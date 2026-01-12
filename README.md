@@ -2,6 +2,14 @@
 
 A comprehensive web-based Admin Panel for managing users, medicines, and orders for a Medical Store built using the MERN Stack (MongoDB, Express.js, React.js, Node.js).
 
+
+Admin URL:
+https://medical-dashboard-lemon.vercel.app/
+
+Demo Video:
+https://www.loom.com/share/72da875dd6d04a17827f090c8cd3617e
+
+
 ## 🚀 Features
 
 ### Authentication
