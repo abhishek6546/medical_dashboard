@@ -108,7 +108,7 @@ VITE_API_URL=http://localhost:5000/api
 npm run dev
 ```
 
-The app will be available at `http://localhost:3000`
+The app will be available at `https://medical-dashboard-lemon.vercel.app/`
 
 ## 🔐 Demo Credentials
 
