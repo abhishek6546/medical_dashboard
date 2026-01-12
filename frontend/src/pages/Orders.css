@@ -1,0 +1,226 @@
+.order-id-cell {
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.customer-cell {
+    display: flex;
+    flex-direction: column;
+}
+
+.customer-name {
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.customer-email {
+    font-size: 0.8125rem;
+    color: var(--text-muted);
+}
+
+.items-count {
+    color: var(--text-secondary);
+}
+
+.total-amount {
+    font-weight: 600;
+    color: var(--secondary);
+}
+
+.order-date {
+    font-size: 0.8125rem;
+    color: var(--text-muted);
+}
+
+.status-select {
+    padding: 0.375rem 0.75rem;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+    background-size: 0.75rem;
+    padding-right: 1.5rem;
+}
+
+.status-select.status-pending {
+    background-color: rgba(245, 158, 11, 0.15);
+    color: var(--warning);
+}
+
+.status-select.status-processing {
+    background-color: rgba(59, 130, 246, 0.15);
+    color: var(--info);
+}
+
+.status-select.status-shipped {
+    background-color: rgba(139, 92, 246, 0.15);
+    color: #8b5cf6;
+}
+
+.status-select.status-delivered {
+    background-color: rgba(34, 197, 94, 0.15);
+    color: var(--success);
+}
+
+.status-select.status-cancelled {
+    background-color: rgba(239, 68, 68, 0.15);
+    color: var(--error);
+}
+
+/* Order Details Modal */
+.order-details-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.order-id-lg {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.order-info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.order-info-section h4 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.9375rem;
+    color: var(--text-primary);
+}
+
+.info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.info-icon {
+    color: var(--text-muted);
+    flex-shrink: 0;
+    margin-top: 0.125rem;
+}
+
+.info-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.info-value {
+    font-size: 0.9375rem;
+    color: var(--text-primary);
+}
+
+/* Ordered Items */
+.order-items-section {
+    margin-bottom: 1.5rem;
+}
+
+.order-items-section h4 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.9375rem;
+}
+
+.ordered-items-list {
+    background: var(--bg-secondary);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+}
+
+.ordered-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.875rem 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.ordered-item:last-child {
+    border-bottom: none;
+}
+
+.ordered-item-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.ordered-item-name {
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.ordered-item-qty {
+    font-size: 0.8125rem;
+    color: var(--text-muted);
+}
+
+.ordered-item-price {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.order-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: linear-gradient(135deg, rgba(14, 165, 233, 0.1), rgba(16, 185, 129, 0.1));
+    border-radius: var(--radius-md);
+    margin-top: 1rem;
+}
+
+.order-total span:first-child {
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.total-value {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--secondary);
+}
+
+/* Status Update */
+.order-status-update h4 {
+    margin-bottom: 1rem;
+    font-size: 0.9375rem;
+}
+
+.status-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .order-info-grid {
+        grid-template-columns: 1fr;
+    }
+}
