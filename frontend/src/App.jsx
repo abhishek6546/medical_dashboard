@@ -10,7 +10,7 @@ import Medicines from './pages/Medicines';
 import Orders from './pages/Orders';
 import './index.css';
 
-// Layout component for authenticated pages
+// Layout component for authenticated page
 const AppLayout = ({ children }) => {
     return (
         <div className="app-layout">
